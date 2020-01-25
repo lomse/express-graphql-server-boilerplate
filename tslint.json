@@ -1,0 +1,91 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "curly": true,
+        "eofline": false,
+        "forin": false,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "jsdoc-format": true,
+        "jsx-no-lambda": false,
+        "jsx-wrap-multiline": false,
+        "jsx-alignment": false,
+        "jsx-self-close": false,
+        "jsx-no-multiline-js": false,
+        "jsx-curly-spacing": false,
+        "label-position": true,
+        "no-consecutive-blank-lines": true,
+        "no-construct": true,
+        "no-debugger": true,
+        "no-duplicate-variable": true,
+        "no-empty": false,
+        "no-eval": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": false,
+        "no-switch-case-fall-through": true,
+        "no-trailing-whitespace": false,
+        "no-unused-expression": true,
+        "arrow-parens": false,
+        "space-before-function-paren": false,
+        "one-line": [
+            false,
+            "check-catch",
+            "check-else",
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "jsx-double"
+        ],
+        "semicolon": [
+            false
+        ],
+        "trailing-comma": false,
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            }
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore",
+            "allow-pascal-case"
+        ],
+        "whitespace": [
+            false,
+            "check-branch",
+            "check-decl",
+            "check-module",
+            "check-operator",
+            "check-separator",
+            "check-type",
+            "check-typecast"
+        ]
+    },
+    "rulesDirectory": []
+}
