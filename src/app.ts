@@ -6,8 +6,8 @@ import cors from 'cors'
 import bodyParser from 'body-parser'
 import { ApolloServer } from 'apollo-server-express'
 import dbConnection from './config/db/connection'
-import typeDefs from './services/graphql/todo.schema'
-import resolvers from './services/graphql/todo.resolvers'
+import typeDefs from './services/graphql/graphql.schema'
+import resolvers from './services/graphql/graphql.resolvers'
 
 const server = new ApolloServer({ typeDefs, resolvers: resolvers() })
 const app: express.Application = express()
