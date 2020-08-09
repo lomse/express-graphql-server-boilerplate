@@ -13,7 +13,7 @@
     "format": "prettier --write --single-quote --no-semi --print-width=120 --tab-width=2 \"src/**/*.{ts,tsx} \""
   },
   "dependencies": {
-    "apollo-server-express": "^2.9.16",
+    "apollo-server-express": "^2.14.2",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
